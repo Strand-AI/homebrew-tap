@@ -1,8 +1,8 @@
 class LambdaCli < Formula
   desc "CLI tool for Lambda Labs cloud GPU API"
   homepage "https://github.com/Strand-AI/lambda-cli"
-  url "https://github.com/Strand-AI/lambda-cli/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "6e7d739e08939dd267cac82e3c3a3da1eab06d25bd0be7054f9e438e6a11cd7e"
+  url "https://github.com/Strand-AI/lambda-cli/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "553eec2b5ef2e3cbb908654d9bc767463353dac1bb4c65de8df6b6c3a2758014"
   license "MIT"
   head "https://github.com/Strand-AI/lambda-cli.git", branch: "main"
 
@@ -13,6 +13,6 @@ class LambdaCli < Formula
   end
 
   test do
-    assert_match "lambda 0.2.0", shell_output("#{bin}/lambda_cli --version")
+    assert_match "lambda 0.2.2", shell_output("#{bin}/lambda_cli --version")
   end
 end
