@@ -1,8 +1,8 @@
 class LambdaCli < Formula
-  desc "CLI and MCP server for Lambda Labs cloud GPU instances"
+  desc "Unofficial CLI and MCP server for Lambda cloud GPU instances"
   homepage "https://github.com/Strand-AI/lambda-cli"
-  url "https://github.com/Strand-AI/lambda-cli/archive/refs/tags/v0.3.3.tar.gz"
-  sha256 "9cb14cde1b3d70efcac35a5f8ac2b1b27f440cba8881a0071aea78ca664f79cb"
+  url "https://github.com/Strand-AI/lambda-cli/archive/refs/tags/v0.5.1.tar.gz"
+  sha256 "77a94d2f7bdaecd62f6f6585e5b792b1bd475d472d18e8b7967e1e2235e57d23"
   license "MIT"
   head "https://github.com/Strand-AI/lambda-cli.git", branch: "main"
 
